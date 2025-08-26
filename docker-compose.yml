@@ -1,10 +1,7 @@
 ---
 services:
   web:
-    image: sample-flask-app
-    build:
-      context: .
-      dockerfile: Dockerfile
+    image: arjunvinod77/simple-flask-app
     ports:
       - 8080:5000
     deploy:
